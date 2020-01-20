@@ -12,8 +12,8 @@
 CRGB leds[NUM_LEDS];
 
 /* Set these to your desired credentials. */
-const char *ssid = "NETGEAR49";
-const char *password = "melodicboat600";
+const char *ssid = "YOUR NET";
+const char *password = "YOUR PASS";
 String colorPage = "<!DOCTYPE html><head><title>Color Control Panel</title></head><body><h1>You now control the light color.</h1><form action='/' method='POST'>Red (0-255):<input type='number' name='red' min='0' max='255'><br>Green (0-255):<input type='number' name='green' min='0' max='255'><br>Blue (0-255):<input type='number' name='blue' min='0' max='255'><br><input type='submit'></form></body></html>";
 
 ESP8266WebServer server(80);
